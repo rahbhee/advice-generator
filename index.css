@@ -29,10 +29,11 @@ body{
 h1{
     color: #fff;
     font-size: 1.2rem;
+    font-weight: 500;
 }
 h3{
     color: hsl(150, 100%, 66%);
-    font-size: .65rem;
+    font-size: .6rem;
     letter-spacing: 2px;
 }
 .line{
@@ -61,8 +62,21 @@ h3{
     border-radius: 50%;
     padding: .8rem;
 }
+.fa-dice-five:hover{
+    cursor: pointer;
+    box-shadow:  hsl(150, 100%, 66%) 0px 0px 15px;
+}
 h1 i{
     font-size: .8rem;
     bottom: .5rem;
     position: relative;
+}
+
+@media (max-width: 480px) {
+    .main{
+        max-width: 25rem;
+    }
+    .line{
+        width: 6rem;
+    }
 }
